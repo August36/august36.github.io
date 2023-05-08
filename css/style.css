@@ -1,1 +1,47 @@
-a {font-size: 55px;}
+body {
+  background-color: rgba(15, 15, 15, 0.795);
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;;
+}
+
+header {
+  background-color: rgb(83, 83, 83);
+  padding: 20px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin: 1em;
+  background-color: gray;
+  padding: 5em;
+  border-radius: 1em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+video, iframe {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
