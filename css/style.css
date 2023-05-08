@@ -36,7 +36,6 @@ iframe {
   grid-template-columns: 1fr 1fr;
   gap: 1em;
   margin: 1em;
-  background-color: gray;
   padding: 5em;
   border-radius: 1em;
 }
