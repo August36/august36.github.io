@@ -18,8 +18,12 @@ h1, h2 {
 }
 
 header {
-  background-color: rgb(83, 83, 83);
+  background-color: darkblue;
   padding: 20px;
+}
+
+footer {
+  background-color: darkblue;
 }
 
 
