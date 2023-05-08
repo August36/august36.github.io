@@ -37,6 +37,17 @@ img {
   width: 100%;
   height: auto;
   text-align: center;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+img:hover {
+  border: solid;
+  border-radius: 2px;
+}
+
+img:active {
+  transform: rotate(360deg);
 }
 
 video, iframe {
