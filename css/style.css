@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(15, 15, 15, 0.795);
+  background-color: rgb(31, 34, 39);
 }
 
 main {
@@ -16,6 +16,9 @@ h1, h2 {
   margin: 0 auto;
   font-family: 'Roboto Slab', serif;;
   color: goldenrod;
+  border: solid;
+  border-width: 5px;
+  border-color: goldenrod;
 }
 
 header {
